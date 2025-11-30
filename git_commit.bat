@@ -78,6 +78,17 @@ if errorlevel 1 (
     exit /b 1
 )
 
+rem Check if remote 'origin' exists
+git remote get-url origin >nul 2>nul
+if errorlevel 1 (
+    echo.
+    echo [Info] Remote 'origin' is not configured. Skipping push.
+    echo [Info] To add a remote, run:
+    echo        git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
+    echo        git push -u origin %CUR_BRANCH%
+    goto :done
+)
+
 echo Pushing to origin/%CUR_BRANCH% ...
 git push origin %CUR_BRANCH%
 if errorlevel 1 (
@@ -104,8 +115,9 @@ if errorlevel 1 (
     )
 )
 
+:done
 echo.
-echo [Success] Commit and push completed on branch %CUR_BRANCH%.
+echo [Success] Commit completed on branch %CUR_BRANCH%.
 echo.
 pause
 exit /b 0
