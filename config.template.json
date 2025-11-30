@@ -1,16 +1,26 @@
 {
-  "total_pages": 100,
+  "total_pages": 10
   "output_dir": "data",
   "pdf_filename": null,
   "page_delay": 2.0,
   "screenshot_region": null,
   "fullscreen": true,
   "delete_screenshots": false,
+  "page_turn_direction": "left",
+  "kindle_url": "https://read.amazon.co.jp/kindle-library",
+  "skip_url_open": false,
+  "use_chrome_profile": false,
+  "chrome_user_data_dir": "",
   "_comment_total_pages": "キャプチャするページの総数を指定してください",
   "_comment_output_dir": "スクリーンショットを保存するディレクトリ",
   "_comment_pdf_filename": "出力PDFのファイル名（nullの場合はタイムスタンプ付きの名前が自動生成されます）",
   "_comment_page_delay": "ページ送り後の待機時間（秒）",
-  "_comment_screenshot_region": "スクリーンショットの領域 [x, y, width, height]。nullの場合は全画面",
+  "_comment_screenshot_region": "スクリーンショットの領域 [x, y, width, height]。nullの場合は全画面（推奨）",
   "_comment_fullscreen": "ブラウザを全画面で起動するかどうか",
-  "_comment_delete_screenshots": "PDF作成後にスクリーンショット画像を削除するかどうか"
+  "_comment_delete_screenshots": "PDF作成後にスクリーンショット画像を削除するかどうか",
+  "_comment_page_turn_direction": "ページめくり方向: 'left'=左矢印キー（次へ進む）, 'right'=右矢印キー（次へ進む）",
+  "_comment_kindle_url": "Kindle Cloud ReaderのURL（日本: https://read.amazon.co.jp/kindle-library, 米国: https://read.amazon.com）",
+  "_comment_skip_url_open": "trueの場合、URLを開かずに既存のブラウザタブを使用（手動で本を開いておく必要あり）",
+  "_comment_use_chrome_profile": "既存のChromeプロファイルを使用するか（ログイン済みセッション利用）",
+  "_comment_chrome_user_data_dir": "Chromeのユーザーデータディレクトリ（例: C:/Users/YourName/AppData/Local/Google/Chrome/User Data）"
 }
