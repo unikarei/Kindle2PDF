@@ -1,0 +1,17 @@
+﻿# Kindle Screenshots
+# このディレクトリには一時的なスクリーンショットファイルが保存されます
+*.png
+*.jpg
+*.jpeg
+
+# Capture output directory
+/data/
+
+# Generated PDFs
+*.pdf
+
+# Python cache and virtualenv (recommended)
+__pycache__/
+*.py[cod]
+*.pyc
+.venv/

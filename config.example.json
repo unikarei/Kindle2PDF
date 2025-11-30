@@ -1,0 +1,9 @@
+{
+  "total_pages": 196,
+  "output_dir": "kindle_screenshots",
+  "pdf_filename": "my_kindle_book.pdf",
+  "page_delay": 2.0,
+  "screenshot_region": [200, 100, 1520, 880],
+  "fullscreen": true,
+  "delete_screenshots": true
+}

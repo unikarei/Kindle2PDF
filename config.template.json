@@ -1,0 +1,16 @@
+{
+  "total_pages": 100,
+  "output_dir": "data",
+  "pdf_filename": null,
+  "page_delay": 2.0,
+  "screenshot_region": null,
+  "fullscreen": true,
+  "delete_screenshots": false,
+  "_comment_total_pages": "キャプチャするページの総数を指定してください",
+  "_comment_output_dir": "スクリーンショットを保存するディレクトリ",
+  "_comment_pdf_filename": "出力PDFのファイル名（nullの場合はタイムスタンプ付きの名前が自動生成されます）",
+  "_comment_page_delay": "ページ送り後の待機時間（秒）",
+  "_comment_screenshot_region": "スクリーンショットの領域 [x, y, width, height]。nullの場合は全画面",
+  "_comment_fullscreen": "ブラウザを全画面で起動するかどうか",
+  "_comment_delete_screenshots": "PDF作成後にスクリーンショット画像を削除するかどうか"
+}
