@@ -1,5 +1,5 @@
 {
-  "total_pages": 10
+  "total_pages": null,
   "output_dir": "data",
   "pdf_filename": null,
   "page_delay": 2.0,
@@ -11,7 +11,7 @@
   "skip_url_open": false,
   "use_chrome_profile": false,
   "chrome_user_data_dir": "",
-  "_comment_total_pages": "キャプチャするページの総数を指定してください",
+  "_comment_total_pages": "キャプチャするページの総数（null の場合は自動検出を試みます。数値を指定すると自動検出をスキップします）",
   "_comment_output_dir": "スクリーンショットを保存するディレクトリ",
   "_comment_pdf_filename": "出力PDFのファイル名（nullの場合はタイムスタンプ付きの名前が自動生成されます）",
   "_comment_page_delay": "ページ送り後の待機時間（秒）",
